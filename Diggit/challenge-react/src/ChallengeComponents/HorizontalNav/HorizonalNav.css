@@ -1,0 +1,25 @@
+.HorizontalNav {
+    padding-top: 50px;
+}
+
+.horizontal-links li {
+    background-color: #050711 !important;
+    border: none;
+    color: #70879a;
+    padding-left: 0px;
+    margin-right: 45px !important;
+}
+
+.horizontal-links li:hover a {
+    color: #09a9ba;
+}
+
+.horizontal-links li a {
+    text-decoration: none !important;
+    color: #7d97ab;
+}
+
+.current {
+    color: #09b6b2 !important;
+    font-weight: bold;
+}

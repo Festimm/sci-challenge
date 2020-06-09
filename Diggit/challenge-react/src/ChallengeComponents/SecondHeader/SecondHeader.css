@@ -1,0 +1,44 @@
+.SecondHeader {
+    background-color: #0d101d;
+    padding: 20px;
+    color: #849fb4;
+}
+
+.secondHeaderDropdownBtn {
+    background-color: #0d101d;
+    border: none;
+    border-radius: 0px;
+    color: #849fb4;
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+.dropdown-menu {
+    background-color: #0d101d   ;
+    border-radius: 0px;
+    border-bottom: 2px solid #849fb4;
+}
+
+.dropdown-item {
+    color: #849fb4;
+}
+
+.dropdown-item:hover {
+    background-color: #849fb4;
+}
+
+.secondHeaderDropdownBtn:hover {
+    background-color: #0d101d !important;
+}
+
+.secondHeaderDropdownBtn:focus {
+    background-color: #0d101d !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}

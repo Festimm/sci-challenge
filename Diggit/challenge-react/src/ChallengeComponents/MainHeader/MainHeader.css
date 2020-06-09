@@ -1,0 +1,73 @@
+.mainHeader {
+    background-color: #050711 !important;
+    border-bottom: 3px solid #09b2b5;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.appLogo {
+    width:150px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-item .nav-link {
+    color: #768fa2 !important;
+    margin-right: 30px;;
+}
+
+.nav-item .nav-link:hover {
+    color: #09a9ba !important;
+}
+
+.mainHeaderUser {
+    background: rgb(10,189,173);
+    background: linear-gradient(90deg, rgba(10,189,173,1) 0%, rgba(9,178,181,1) 50%, rgba(8,165,187,1) 100%);
+    width: 30%;
+    padding: 32px !important;    
+}
+
+.profilePicture {
+    width: 50px;
+    border-radius: 100%;
+    padding: 0px;
+    position: absolute;
+    margin-left: -50px;
+    top:-15px;
+}
+
+.authorName {
+    /* position: absolute; */
+    /* margin-left: 30px; */
+    /* margin-top: -10px; */
+    color: #fff;
+    font-weight: bold;
+}
+
+.authorDesc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.mobileNavIcon {
+    background-color:  #09a9ba !important;
+    border-radius: 0px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .mainHeaderUser {
+      display: none;
+    }
+  }
